@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "diary\\": "vendor/diary",
+      "app\\": "app"
+    }
+  },
+  "require": {
+
+  }
+}

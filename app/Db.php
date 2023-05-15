@@ -13,7 +13,8 @@ class Db
             $config['password']);
     }
 
-    public function query($sql, $data = [], $class ){
+    public function query($sql, $data = [], $class )
+    {
         $sth = $this->dbh->prepare($sql);
         $res = $sth->execute($data);
 

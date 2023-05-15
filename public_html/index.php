@@ -10,6 +10,7 @@ $ctrl = (!empty($_SESSION['user_name']) &&
         !empty($_GET['ctrl']) ? $_GET['ctrl'] : 'Index' : 'Authorization';
 
 
+
 if ($_POST['mail'] == 'ok') $ctrl = 'Mail';//Here was if isset() by 13 to 27
 elseif ($_POST['mail'] == 'dl') $ctrl = 'DLMail';
 elseif ($_POST['mail'] == 'bl') $ctrl = 'BlMail';
