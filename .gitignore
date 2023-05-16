@@ -1,5 +1,5 @@
-/public_html/img
-/public_html/audio
+/public/img
+/public/audio
 meta.txt
 /.idea
 vendor/*

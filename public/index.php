@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-
-require __DIR__ . '/../app/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
+//require __DIR__ . '/../app/autoload.php';
 echo "<img src='img/diary_face.png' hidden alt='Дневник КПТ'>";
 $ctrl = (!empty($_SESSION['user_name']) &&
         !empty($_SESSION['user_email']) &&
