@@ -1,0 +1,252 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+body{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 18px;
+    line-height: 20px;
+    color: #424242;
+    background-image:url(../img/ptsr_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #c7b39b;
+    background-attachment: fixed;
+}
+h2{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px;
+}
+
+textarea{
+    height: 120px;
+    width: 90%;
+    background-color: #fbfeff;
+    font-size: 16px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: unset;
+    outline: none;
+    border:0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.evaluate_the_thought button{
+    background-color: #AAAC87;
+}
+.evaluate_the_thought button:active, .button_motivation:active{
+    box-shadow:unset;
+    position:relative;
+    right: -3px;
+    bottom: -3px;
+
+}
+
+.button_motivation_box{
+    height: 43px;
+}
+.button_motivation{
+    box-shadow:3px 3px #f09999;
+    background-color: #fff888;
+}
+
+.img_evaluate_the_thought, .evaluate_the_thought button{
+    box-shadow:3px 3px #ab98a5;
+}
+
+
+
+.info, .hello, .meditation, .motivation, .current_motivation, .watch_thought, .evaluate_the_thought{
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+.info{
+    background-color: #e1fafc;
+    box-shadow:3px 3px rgba(32, 119, 209, 0.55);
+}
+
+.hello{
+    background-color: #F3F7FF;
+    box-shadow:3px 3px #cbd3e2;
+}
+
+.motivation{
+    background-color: #ffebeb;
+    box-shadow:3px 3px #f1b5b5;
+
+}
+
+.current_motivation{
+    background-color: #F6EE59;
+    box-shadow:3px 3px #c2b61c;
+}
+
+.watch_thought{
+    background-color: #bedba4;
+    box-shadow:3px 3px #6C8550;
+}
+
+.evaluate_the_thought{
+    background-color: #f0e0ef;
+    box-shadow:3px 3px #ab98a5;
+}
+
+
+
+
+
+.hello>textarea:focus{
+    outline: none;
+    box-shadow:3px 3px #cbd3e2;
+}
+.motivation>textarea:focus{
+    outline: none;
+    box-shadow:3px 3px #f09999;
+}
+
+.text{
+    margin: 10px;
+}
+
+
+.motivation>.text, .watch_thought>.text, .evaluate_the_thought>.text{
+    height: 150px;
+    overflow: hidden;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+
+}
+
+.arrow_button{
+    font-size: 50px;
+    position: relative;
+    cursor: pointer;
+    top: -50px;
+
+}
+
+
+
+.svg>svg{
+    font-size: 30px;
+    float: right;
+    margin-right: -25px;
+    margin-top:-25px;
+    cursor: pointer;
+}
+
+.info>.svg>svg{
+    color: #477D8A;
+}
+
+.current_motivation>.svg>svg{
+    color: #c2b61c;
+}
+
+.motivation>.svg>svg, .motivation>.arrow_button{
+    color: #eda1a1;
+}
+
+.watch_thought>.svg>svg, .watch_thought>.arrow_button{
+    color: #6C8550;
+}
+.evaluate_the_thought>.svg>svg, .evaluate_the_thought>.arrow_button{
+    color: #ab98a5;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.meditation{
+    background-color: #fff8ef;
+    box-shadow:3px 3px #dbc89e;
+}
+
+.accordeon, .accordeon2, .accordeon3, .accordeon4 {
+    max-width: 700px;
+    border: 2px solid #8B7066;
+    margin: auto;
+
+}
+
+.acc-head, .acc-head2, .acc-head3, .acc-head4 {
+    padding: 5px 10px;
+    background: #E2CCB9;
+    cursor: pointer;
+    font-size: 17px;
+    text-align: left!important;
+    border-bottom: 1px solid #725E5F;
+}
+
+
+.acc-body, .acc-body2, .acc-body3, .acc-body4 {
+    padding: 10px;
+    border-bottom: 1px solid #c0c0c0;
+    margin-bottom: 5px;
+    display: none;
+    font-size: 18px;
+}
+
+.img_hello{
+    box-shadow:3px 3px #cbd3e2;
+}
+
+.img_med{
+    box-shadow:3px 3px #dbc89e;
+}
+
+.img_mot{
+    box-shadow:3px 3px #f09999;
+}
+
+.img_watch{
+    box-shadow:3px 3px #6C8550;
+}
+
+
+
+table{
+    word-break: break-word;
+    font-size: 14px;
+}
+
+th, td{
+    border: 1px solid #424242;
+    padding: 2px;
+}
+
+th{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.send{
+    color: #03A762;
+    font-size: 60px;
+}
+.img_load{
+    width: 90px;
+    height: 90px;
+}
+.load{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 520px) {
+    img {
+        width: 90%;
+        height: auto;
+    }
+}
+

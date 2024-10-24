@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Моудслейский опросник обсессивности-компульсивности</title>
+    <style>
+        body{
+            font-family: "Arial",serif;
+            max-width: 1024px;
+            margin: 0 auto;
+            color: #424242;
+
+        }
+        table{
+            border: 1px solid black;
+            width: 100%;
+
+        }
+
+        caption{
+            padding: 10px;
+            font-weight: 600;
+        }
+
+        .first_header{
+            background-color: bisque;
+            border: 1px solid darkgoldenrod;
+            font-size: 20px;
+        }
+
+        .sec_header{
+            background-color: rgba(151,217,60,0.1);
+            border: 1px solid darkgoldenrod;
+        }
+
+        .how_strong{
+            border: 1px solid rgba(151,217,60,0.7);
+        }
+
+        .how_strong2{
+            border: 1px solid gray;
+        }
+
+        td{
+            padding: 10px;
+        }
+
+        .footer{
+            padding: 10px;
+        }
+        label{
+            font-weight: bold;
+        }
+        .l1{
+            color: darkgreen;
+        }
+        .l2{
+            color: brown;
+        }
+
+        button{
+            height: 40px;
+            width: 150px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 20px;
+            border-radius: 8px;
+            border: 2px solid darkolivegreen;
+
+        }
+        button:hover{
+            background-color: white;
+        }
+        button:active{
+            background-color: bisque;
+        }
+        .red_res{
+            color: brown;
+        }
+        .green_res{
+            color: darkgreen;
+        }
+        .to_flex{
+            display: flex;
+            justify-content: space-around;
+        }
+        .radio_input{
+            width: 30%;
+            text-align: center;
+            background-color: beige;
+            padding:10px 0 10px 5px;
+        }
+
+        .radio_input:nth-child(1){
+            border-left: 3px solid darkgreen;
+            border-bottom: 1px solid darkgreen;
+
+        }
+
+        .radio_input:nth-child(2){
+            border-left: 3px solid brown;
+            border-bottom: 1px solid brown;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<table>
+    <caption class="first_header">Моудслейский опросник обсессивности-компульсивности</caption>
+    <caption class="sec_header">Для ответа на вопросы, пожалуйста, поставьте галочку «Согласен» или
+        «Не согласен. В этом тесте не может быть правильных или неправильных ответов.
+        В нем нет вопросов с подвохом. Отвечайте быстро и старайтесь не слишком за-
+        думываться.
+
+    </caption>
+    <tr>
+        <th class="how_strong" colspan="3">Действия</th>
+        <th class="how_strong">Согласен</th>
+        <th class="how_strong">Не согласен</th>
+
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="3">Я стараюсь не пользоваться телефоном в общественных местах, потому что можно подхватить какую-нибудь заразу.</td>
+        <td class="how_strong2 f" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val1">Да</label>
+                    <input type="radio" id="val1" name="ques1" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val2">Нет</label>
+                    <input type="radio" id="val2" name="ques1" value="0">
+                </div>
+            </div>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="3">У меня часто бывают грязные мысли, и мне
+            трудно от них избавиться.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val3">Да</label>
+                    <input type="radio" id="val3" name="ques2" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val4">Нет</label>
+                    <input type="radio" id="val4" name="ques2" value="0">
+                </div>
+            </div>
+
+        </td>
+    </tr>
+
+
+    <tr>
+        <td class="how_strong2" colspan="3">Я больше других людей думаю о честности. </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val5">Да</label>
+                    <input type="radio" id="val5" name="ques3" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val6">Нет</label>
+                    <input type="radio" id="val6" name="ques3" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Я часто опаздываю, потому что не успеваю все перепроверить дома.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val7">Да</label>
+                    <input type="radio" id="val7" name="ques4" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val8">Нет</label>
+                    <input type="radio" id="val8" name="ques4" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Я не стану чрезмерно переживать о том, что заражусь, если потрогаю животное.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val9">Да</label>
+                    <input type="radio" id="val9" name="ques5" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val10">Нет</label>
+                    <input type="radio" id="val10" name="ques5" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="3">Мне нужно часто проверять все по несколько раз (перекрыт ли газ, закрыты ли краны,
+            двери и т. п.).
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val11">Да</label>
+                    <input type="radio" id="val11" name="ques6" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val12">Нет</label>
+                    <input type="radio" id="val12" name="ques6" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="3">Жить по совести для меня очень важно.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val13">Да</label>
+                    <input type="radio" id="val13" name="ques7" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val14">Нет</label>
+                    <input type="radio" id="val14" name="ques7" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="3">Почти каждый день неприятные мысли рас-
+            страивают меня, потому что приходят мне
+            в голову против воли.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val15">Да</label>
+                    <input type="radio" id="val15" name="ques8" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val16">Нет</label>
+                    <input type="radio" id="val16" name="ques8" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="3">Мне не свойственно чрезмерно переживать
+            о том, что я кого-то толкну.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val17">Да</label>
+                    <input type="radio" id="val17" name="ques9" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val18">Нет</label>
+                    <input type="radio" id="val18" name="ques9" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="3">Мои родители не были слишком строгими.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val19">Да</label>
+                    <input type="radio" id="val19" name="ques10" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val20">Нет</label>
+                    <input type="radio" id="val20" name="ques10" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="3">Я использую мыло в обычных количествах.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val21">Да</label>
+                    <input type="radio" id="val21" name="ques11" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val22">Нет</label>
+                    <input type="radio" id="val22" name="ques11" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="3">Бывают очень несчастливые числа.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val23">Да</label>
+                    <input type="radio" id="val23" name="ques12" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val24">Нет</label>
+                    <input type="radio" id="val24" name="ques12" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Я часто сильно сомневаюсь, прежде чем со-
+            вершить простые повседневные действия.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val25">Да</label>
+                    <input type="radio" id="val25" name="ques13" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val26">Нет</label>
+                    <input type="radio" id="val26" name="ques13" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Я часто опаздываю с выполнением рабочих
+            задач, потому что мне нужно все по многу раз
+            перепроверять.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val27">Да</label>
+                    <input type="radio" id="val27" name="ques14" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val28">Нет</label>
+                    <input type="radio" id="val28" name="ques14" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Мне не нужно проверять письма много раз
+            перед отправкой.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val29">Да</label>
+                    <input type="radio" id="val29" name="ques15" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val30">Нет</label>
+                    <input type="radio" id="val30" name="ques15" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Я быстро одеваюсь с утра.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val31">Да</label>
+                    <input type="radio" id="val31" name="ques16" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val32">Нет</label>
+                    <input type="radio" id="val32" name="ques16" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Я не слишком озабочен чистотой.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val33">Да</label>
+                    <input type="radio" id="val33" name="ques17" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val34">Нет</label>
+                    <input type="radio" id="val34" name="ques17" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Одна из моих главных проблем в том, что я уделяю слишком много внимания деталям.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val35">Да</label>
+                    <input type="radio" id="val35" name="ques18" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val36">Нет</label>
+                    <input type="radio" id="val36" name="ques18" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Я без проблем пользуюсь чистыми туалетами. </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val37">Да</label>
+                    <input type="radio" id="val37" name="ques19" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val38">Нет</label>
+                    <input type="radio" id="val38" name="ques19" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Многократные перепроверки — одна из главных моих проблем.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val39">Да</label>
+                    <input type="radio" id="val39" name="ques20" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val40">Нет</label>
+                    <input type="radio" id="val40" name="ques20" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Я не слишком переживаю из-за бактерий и заболеваний.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val41">Да</label>
+                    <input type="radio" id="val41" name="ques21" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val42">Нет</label>
+                    <input type="radio" id="val42" name="ques21" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Мне не нужно перепроверять все по несколько раз.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val43">Да</label>
+                    <input type="radio" id="val43" name="ques22" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val44">Нет</label>
+                    <input type="radio" id="val44" name="ques22" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Я не придерживаюсь жесткого порядка в выполнении повседневных дел.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val45">Да</label>
+                    <input type="radio" id="val45" name="ques23" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val46">Нет</label>
+                    <input type="radio" id="val46" name="ques23" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Мне не кажется, что у меня грязные руки после соприкосновения с деньгами.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val47">Да</label>
+                    <input type="radio" id="val47" name="ques24" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val48">Нет</label>
+                    <input type="radio" id="val48" name="ques24" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Обычно, делая что-то, я не считаю про себя. </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val49">Да</label>
+                    <input type="radio" id="val49" name="ques25" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val50">Нет</label>
+                    <input type="radio" id="val50" name="ques25" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">У меня уходит много времени на утреннее мытье.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val51">Да</label>
+                    <input type="radio" id="val51" name="ques26" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val52">Нет</label>
+                    <input type="radio" id="val52" name="ques26" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Я очень часто пользуюсь антисептиком. </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val53">Да</label>
+                    <input type="radio" id="val53" name="ques27" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val54">Нет</label>
+                    <input type="radio" id="val54" name="ques27" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Каждый день я трачу много времени на разнообразные перепроверки.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val55">Да</label>
+                    <input type="radio" id="val55" name="ques28" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val56">Нет</label>
+                    <input type="radio" id="val56" name="ques28" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Мне не требуется много времени на развешивание и складывание вещей перед сном.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val57">Да</label>
+                    <input type="radio" id="val57" name="ques29" value="0">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val58">Нет</label>
+                    <input type="radio" id="val58" name="ques29" value="1">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">Даже когда я делаю что-то очень аккуратно, мне все равно кажется, что можно было сделать лучше.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="to_flex">
+                <div class="radio_input">
+                    <label class="l1" for="val59">Да</label>
+                    <input type="radio" id="val59" name="ques30" value="1">
+                </div>
+                <div class="radio_input">
+                    <label class="l2" for="val60">Нет</label>
+                    <input type="radio" id="val60" name="ques30" value="0">
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="5">
+            <div>
+                <button>Посчитать?</button>
+                <h2 class="result">Результат: <span></span></h2>
+                <h2 class="result2"></h2>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="5">
+            <div>
+                <h2 class="result3">Субшкала, "перепровекра": <span></span></h2>
+                <h2 class="result4"></h2>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+    <td class="how_strong2" colspan="5">
+        <div>
+            <h2 class="result5">Субшкала, "мытьё": <span></span></h2>
+            <h2 class="result6"></h2>
+        </div>
+    </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="5">
+            <div>
+                <h2 class="result7">Субшкала, "медлительность": <span></span></h2>
+                <h2 class="result8"></h2>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="5">
+            <div>
+                <h2 class="result9">Субшкала, "сомнения": <span></span></h2>
+                <h2 class="result10"></h2>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="5" class="footer">
+            © Chambless, D. L, Caputo, G. С, Bright, P., & Gallagher, R, "Assessment of Fear in
+            Agoraphobics: The Body Sensations Questionnaire and the Agoraphobic Cognitions
+            Questionnaire," Journal of Consulting and Clinical Psychology, 52 (1984) 1090-1097.
+        </td>
+    </tr>
+
+</table>
+
+
+<p>made by <b>@karpendiaZz</b> (telegram)</p>
+<script>
+// total score
+    let button = document.querySelector("button");
+    let res = document.querySelector(".result2");
+    let res2 = document.querySelector(".result4");
+    let res3 = document.querySelector(".result6");
+    let res4 = document.querySelector(".result8");
+    let res5 = document.querySelector(".result10");
+    button.addEventListener('click', function () {
+        let count = 0;
+        let rechecking = 0;
+        let washing = 0;
+        let slowness = 0;
+        let doubts = 0;
+        let elements = document.querySelectorAll("input");
+        for(let element of elements){
+            if(element.checked) {
+                if(Number(element.value)) count += 1;
+                if(!Number(element.value)) count -= 1;
+                if(['ques2', 'ques6', 'ques8', 'ques14', 'ques15', 'ques20', 'ques22', 'ques26', 'ques28'].includes(element.name))
+                {
+                    if(Number(element.value)) rechecking += 1;
+                    if(!Number(element.value)) rechecking -= 1;
+                }
+                if(['ques1', 'ques4', 'ques5', 'ques9', 'ques13', 'ques17', 'ques19', 'ques21', 'ques24', 'ques26', 'ques27'].includes(element.name))
+                {
+                    if(Number(element.value)) washing += 1;
+                    if(!Number(element.value)) washing -= 1;
+                }
+                if(['ques2', 'ques4', 'ques8', 'ques16', 'ques23', 'ques25', 'ques29'].includes(element.name))
+                {
+                    if(['ques2', 'ques8'].includes(element.name)){
+                        if(Number(element.value)) slowness -= 1;
+                        if(!Number(element.value)) slowness += 1;
+                        continue;
+                    }
+                    if(Number(element.value)) slowness += 1;
+                    if(!Number(element.value)) slowness -= 1;
+                }
+                if(['ques3', 'ques7', 'ques10', 'ques11', 'ques12', 'ques18', 'ques30'].includes(element.name))
+                {
+                    if(Number(element.value)) doubts += 1;
+                    if(!Number(element.value)) doubts -= 1;
+                }
+            }
+        }
+
+        let result = document.querySelector('.result span');
+        result.innerHTML = String(count < 0 ? 0 : count);
+        let res_st = document.querySelector('.result2');
+        if(count <= 6.3){
+            res.classList.remove('red_res');
+            res.classList.add('green_res');
+            res_st.innerHTML = 'Обсессивно-компульсивное расстройство - не обнаружено'
+        }
+        else if(count > 17){
+            res.classList.remove('green_res');
+            res.classList.add('red_res');
+            res_st.innerHTML = 'Имеется обсессивно-компульсивное расстройство'
+        }
+        else if(count > 8 && count < 12){
+            res.classList.remove('green_res');
+            res.classList.add('red_res');
+            res_st.innerHTML = 'Имеются слабо выраженные черты обсессивно-компульсивного расстройства'
+        }
+        else if(count >= 12 && count <= 17){
+            res.classList.remove('green_res');
+            res.classList.add('red_res');
+            res_st.innerHTML = 'Имеются сильно выраженные черты обсессивно-компульсивного расстройства'
+        }
+        else if(count > 6.3 && count <= 8){
+            res.classList.remove('red_res');
+            res.classList.add('green_res');
+            res_st.innerHTML = 'Черты обсессивно-компульсивного расстройства практически отсутствуют'
+        }
+
+        let result2 = document.querySelector('.result3 span');
+        result2.innerHTML = String(rechecking < 0 ? 0 : rechecking);
+        let res_st2 = document.querySelector('.result4');
+
+        if(rechecking < 2 && rechecking > 0){
+            res2.classList.remove('red_res');
+            res2.classList.add('green_res');
+            res_st2.innerHTML = 'По шкале "перепроверка" ОКР практически отсутствует'
+        }else if(rechecking <= 0){
+            res2.classList.remove('red_res');
+            res2.classList.add('green_res');
+            res_st2.innerHTML = 'По шкале "перепроверка" ОКР отсутствует'
+        }
+        else if(rechecking > 2 && rechecking <= 3.5){
+            res2.classList.remove('red_res');
+            res2.classList.add('green_res');
+            res_st2.innerHTML = 'По шкале "перепроверка" ОКР выраженно незначительно'
+        }
+        else if(rechecking > 3.5 && rechecking < 4.7){
+            res2.classList.remove('green_res');
+            res2.classList.add('red_res');
+            res_st2.innerHTML = 'По шкале "перепроверка" ОКР выраженно значительно'
+        }
+        else{
+            res2.classList.remove('green_res');
+            res2.classList.add('red_res');
+            res_st2.innerHTML = 'По шкале "перепроверка" ОКР присутствует'
+        }
+
+        let result3 = document.querySelector('.result5 span');
+        result3.innerHTML = String(washing < 0 ? 0 : washing);
+        let res_st3 = document.querySelector('.result6');
+
+        if(washing <= 2 && washing > 0){
+            res3.classList.remove('red_res');
+            res3.classList.add('green_res');
+            res_st3.innerHTML = 'По шкале "мытьё" ОКР практически отсутствует'
+        }else if(washing > 2 && washing <= 3){
+            res3.classList.remove('green_res');
+            res3.classList.add('red_res');
+            res_st3.innerHTML = 'По шкале "мытьё" ОКР выраженно значительно'
+        }else if(washing > 3){
+            res3.classList.remove('green_res');
+            res3.classList.add('red_res');
+            res_st3.innerHTML = 'По шкале "мытьё" ОКР присутствует'
+        }else if(washing <= 0){
+            res3.classList.remove('red_res');
+            res3.classList.add('green_res');
+            res_st3.innerHTML = 'По шкале "мытьё" ОКР отсутствует'
+        }
+
+        let result4 = document.querySelector('.result7 span');
+        result4.innerHTML = String(slowness < 0 ? 0 : slowness);
+        let res_st4 = document.querySelector('.result8');
+
+        if(slowness <= 2 && slowness > 0){
+            res4.classList.remove('red_res');
+            res4.classList.add('green_res');
+            res_st4.innerHTML = 'По шкале "медлительность" ОКР практически отсутствует'
+        }else if(slowness > 2 && slowness <= 4){
+            res4.classList.remove('green_res');
+            res4.classList.add('red_res');
+            res_st4.innerHTML = 'По шкале "медлительность" ОКР выраженно значительно'
+        }else if(slowness > 4){
+            res4.classList.remove('green_res');
+            res4.classList.add('red_res');
+            res_st4.innerHTML = 'По шкале "медлительность" ОКР присутствует'
+        }else if(slowness <= 0){
+            res4.classList.remove('red_res');
+            res4.classList.add('green_res');
+            res_st4.innerHTML = 'По шкале "медлительность" ОКР отсутствует'
+        }
+
+        let result5 = document.querySelector('.result9 span');
+        result5.innerHTML = String(doubts < 0 ? 0 : doubts);
+        let res_st5 = document.querySelector('.result10');
+
+        if(doubts <= 2 && doubts > 0){
+            res5.classList.remove('red_res');
+            res5.classList.add('green_res');
+            res_st5.innerHTML = 'По шкале "сомнения" ОКР практически отсутствует'
+        }else if(doubts > 2 && doubts <= 4){
+            res5.classList.remove('green_res');
+            res5.classList.add('red_res');
+            res_st5.innerHTML = 'По шкале "сомнения" ОКР выраженно значительно'
+        }else if(doubts > 4){
+            res5.classList.remove('green_res');
+            res5.classList.add('red_res');
+            res_st5.innerHTML = 'По шкале "сомнения" ОКР присутствует'
+        }else if(doubts <= 0){
+            res5.classList.remove('red_res');
+            res5.classList.add('green_res');
+            res_st5.innerHTML = 'По шкале "сомнения" ОКР отсутствует'
+5        }
+
+    })
+// total score end
+</script>
+</body>
+</html>
+<!--
+Ты остановился на медлительности, куда-то пробадают ещё три балла на максимальном количестве совпадений!!!!!!!!!
+-->

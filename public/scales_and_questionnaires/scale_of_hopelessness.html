@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+            font-family: Arial,serif;
+        }
+
+        p{
+            font-size: 16px;
+            line-height: 20px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .container{
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button{
+            height: 40px;
+            width: 150px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 20px;
+
+        }
+        div{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Шкала безнадёжности Бека</h1>
+        <h2>(Hopelessness Scale, Becketal. 1974)</h2>
+        <hr>
+        <p>Ниже приводится 20 утверждений о Вашем будущем. Пожалуйста, прочтите внимательно
+            каждое и отметьте одно верное утверждение, которое наиболее точно отражает Ваши
+            чувства в настоящее время. Выберите слово ВЕРНО если Вы согласны с утверждением
+            или слово НЕВЕРНО, если Вы не согласны. Среди утверждений нет правильных или неправильных.
+            Пожалуйста, выберите ВЕРНО или НЕВЕРНО для всех утверждений. Не тратьте слишком много
+            времени на одно утверждение.
+        </p>
+        <hr>
+        <hr>
+        <br>
+        <br>
+        <hr>
+        <hr>
+        <p><b>1. Я жду будущего с надеждой и энтузиазмом</b></p>
+        <p><input name="q1" type="radio" value="0"> Верно</p>
+        <p><input name="q1" type="radio" value="1"> Неверно</p>
+        <hr>
+        <p><b>2. Мне пора сдаться, т.к. я ничего не могу изменить к лучшему</b></p>
+        <p><input name="q2" type="radio" value="1"> Верно</p>
+        <p><input name="q2" type="radio" value="0"> Неверно</p>
+        <hr>
+        <p><b>3. Когда дела идут плохо, мне помогает мысль, что так не может продолжаться всегда</b></p>
+        <p><input name="q3" type="radio" value="0"> Верно</p>
+        <p><input name="q3" type="radio" value="1"> Неверно</p>
+        <hr>
+        <p><b>4. Я не могу представить, на что будет похожа моя жизнь через 10 лет</b></p>
+        <p><input name="q4" type="radio" value="1"> Верно</p>
+        <p><input name="q4" type="radio" value="0"> Неверно</p>
+        <hr>
+        <p><b>5. У меня достаточно времени, чтобы завершить дела, которыми я больше всего хочу заниматься</b></p>
+        <p><input name="q5" type="radio" value="0"> Верно</p>
+        <p><input name="q5" type="radio" value="1"> Неверно</p>
+        <hr>
+        <p><b>6. В будущем, я надеюсь достичь успеха в том, что мне больше всего нравится</b></p>
+        <p><input name="q6" type="radio" value="0"> Верно</p>
+        <p><input name="q6" type="radio" value="1"> Неверно</p>
+        <hr>
+        <p><b>7. Будущее представляется мне во тьме</b></p>
+        <p><input name="q7" type="radio" value="1"> Верно</p>
+        <p><input name="q7" type="radio" value="0"> Неверно</p>
+        <hr>
+        <p><b>8. Я надеюсь получить в жизни больше хорошего, чем средний человек</b></p>
+        <p><input name="q8" type="radio" value="0"> Верно</p>
+        <p><input name="q8" type="radio" value="1"> Неверно</p>
+        <hr>
+        <p><b>9. У меня нет никаких просветов и нет причин верить, что они появятся в будущем</b></p>
+        <p><input name="q9" type="radio" value="1"> Верно</p>
+        <p><input name="q9" type="radio" value="0"> Неверно</p>
+        <hr>
+        <p><b>10. Мой прошлый опыт хорошо меня подготовил к будущему</b></p>
+        <p><input name="q10" type="radio" value="0"> Верно</p>
+        <p><input name="q10" type="radio" value="1"> Неверно</p>
+        <hr>
+        <p><b>11. Всё, что я вижу впереди – скорее, неприятности, чем радости</b></p>
+        <p><input name="q11" type="radio" value="1"> Верно</p>
+        <p><input name="q11" type="radio" value="0"> Неверно</p>
+        <hr>
+        <p><b>12. Я не надеюсь достичь того, чего действительно хочу</b></p>
+        <p><input name="q12" type="radio" value="1"> Верно</p>
+        <p><input name="q12" type="radio" value="0"> Неверно</p>
+        <hr>
+        <p><b>13. Когда я заглядываю в будущее, я надеюсь быть счастливее, чем я есть сейчас</b></p>
+        <p><input name="q13" type="radio" value="0"> Верно</p>
+        <p><input name="q13" type="radio" value="1"> Неверно</p>
+        <hr>
+        <p><b>14. Дела идут не так, как мне хочется</b></p>
+        <p><input name="q14" type="radio" value="1"> Верно</p>
+        <p><input name="q14" type="radio" value="0"> Неверно</p>
+        <hr>
+        <p><b>15. Я сильно верю в своё будущее</b></p>
+        <p><input name="q15" type="radio" value="0"> Верно</p>
+        <p><input name="q15" type="radio" value="1"> Неверно</p>
+        <hr>
+        <p><b>16. Я никогда не достигаю того, что хочу, поэтому глупо что-либо хотеть</b></p>
+        <p><input name="q16" type="radio" value="1"> Верно</p>
+        <p><input name="q16" type="radio" value="0"> Неверно</p>
+        <hr>
+        <p><b>17. Весьма маловероятно, что я получу реальное удовлетворение в будущем</b></p>
+        <p><input name="q17" type="radio" value="1"> Верно</p>
+        <p><input name="q17" type="radio" value="0"> Неверно</p>
+        <hr>
+        <p><b>18. Будущее представляется мне расплывчатым и неопределённым</b></p>
+        <p><input name="q18" type="radio" value="1"> Верно</p>
+        <p><input name="q18" type="radio" value="0"> Неверно</p>
+        <hr>
+        <p><b>19. В будущем меня ждёт больше хороших дней, чем плохих</b></p>
+        <p><input name="q19" type="radio" value="0"> Верно</p>
+        <p><input name="q19" type="radio" value="1"> Неверно</p>
+        <hr>
+        <p><b>20. Бесполезно пытаться получить то, что я хочу, потому, что, вероятно, я не добьюсь этого</b></p>
+        <p><input name="q20" type="radio" value="1"> Верно</p>
+        <p><input name="q20" type="radio" value="0"> Неверно</p>
+        <hr>
+        <hr>
+        <button>Посчитать?</button>
+        <h1 class="result">Результат: <span></span></h1>
+        <h2 class="result2"></h2>
+    </div>
+    <p>made by <b>@karpendiaZz</b> (telegram)</p>
+    <script>
+
+        let button = document.querySelector("button");
+        button.addEventListener('click', function () {
+            let count = 0;
+            let elements = document.querySelectorAll("input");
+            for(let element of elements){
+                if(element.checked) {
+                    count += Number(element.value);
+                }
+            }
+            let result = document.querySelector('.result span');
+            result.innerHTML = String(count);
+            let res_st = document.querySelector('.result2');
+            if(count <= 3){res_st.innerHTML = 'Безнадёжность не выявлена'}
+            else if(count >= 4 && count <= 8){res_st.innerHTML = 'Безнадежность лёгкая'}
+            else if(count >= 9 && count <= 14){res_st.innerHTML = 'Безнадежность умеренная'}
+            else if(count >= 15 && count <= 20){res_st.innerHTML = 'Безнадежность тяжёлая'}
+
+        })
+    </script>
+</body>
+</html>

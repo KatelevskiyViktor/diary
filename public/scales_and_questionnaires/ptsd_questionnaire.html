@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Посттравматический опросник для гражданских лиц</title>
+    <style>
+        body{
+            font-family: "Arial",serif;
+            max-width: 1024px;
+            margin: 0 auto;
+            color: #424242;
+
+        }
+        table{
+            border: 1px solid black;
+            width: 100%;
+
+        }
+
+        caption{
+            padding: 10px;
+            font-weight: 600;
+        }
+
+        .first_header{
+            background-color: bisque;
+            border: 1px solid darkgoldenrod;
+            font-size: 20px;
+        }
+
+        .sec_header{
+            background-color: rgba(151,217,60,0.1);
+            border: 1px solid darkgoldenrod;
+        }
+
+        .when{
+            text-align: left;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .how_strong{
+            border: 1px solid rgba(151,217,60,0.7);
+        }
+
+        .how_strong2{
+            border: 1px solid gray;
+        }
+
+        td{
+            padding: 10px;
+        }
+
+        .footer{
+            padding: 10px;
+        }
+        label{
+            color: brown;
+            font-weight: bold;
+        }
+        .radio_input{
+            display: inline-block;
+            border: 2px solid darkolivegreen;
+            padding: 3px;
+            border-radius: 8px;
+        }
+        button{
+            height: 40px;
+            width: 150px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 20px;
+            border-radius: 8px;
+            border: 2px solid darkolivegreen;
+
+        }
+        button:hover{
+            background-color: white;
+        }
+        button:active{
+            background-color: bisque;
+        }
+        .red_res{
+            color: brown;
+        }
+        .green_res{
+            color: darkgreen;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<table>
+    <caption class="first_header">Посттравматический опросник для гражданских лиц</caption>
+    <caption class="sec_header">
+        Ниже приведен список проблем и жалоб, которые возникают у людей в ответ на
+        травматический жизненный опыт. Выберите число, которые наилучшим образом
+        отражает, как часто эти проблемы беспокоили вас на протяжении последнего
+        месяца.
+    </caption>
+    <tr>
+        <th class="how_strong">1 — вообще не беспокоило</th>
+        <th class="how_strong">2 — немного</th>
+        <th class="how_strong">3 — умерено</th>
+        <th class="how_strong">4 — довольно часто</th>
+        <th class="how_strong">5 — очень часто</th>
+    </tr>
+
+    <tr>
+        <th class="how_strong2" colspan="3">Реакция</th>
+        <th class="how_strong2" colspan="2">Балл</th>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="3">1. Повторяющиеся, тревожащие воспоминания, мысли или образы,
+            связанные с травматическим событием из прошлого.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val6">1</label>
+                <input type="radio" id="val6" name="ques1" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val7">2</label>
+                <input type="radio" id="val7" name="ques1" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val8">3</label>
+                <input type="radio" id="val8" name="ques1" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val9">4</label>
+                <input type="radio" id="val9" name="ques1" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val10">5</label>
+                <input type="radio" id="val10" name="que12" value="5">
+            </div>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td class="how_strong2" colspan="3">2. Повторяющиеся тревожащие сны, связанные с травматическим
+            событием из прошлого.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val11">1</label>
+                <input type="radio" id="val11" name="ques2" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val12">2</label>
+                <input type="radio" id="val12" name="ques2" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val13">3</label>
+                <input type="radio" id="val13" name="ques2" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val14">4</label>
+                <input type="radio" id="val14" name="ques2" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val15">5</label>
+                <input type="radio" id="val15" name="ques2" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">3. Внезапная потребность действовать так, как будто травматическое событие происходит снова, или чувство, что вы заново
+            переживаете его.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val16">1</label>
+                <input type="radio" id="val16" name="ques3" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val17">2</label>
+                <input type="radio" id="val17" name="ques3" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val18">3</label>
+                <input type="radio" id="val18" name="ques3" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val19">4</label>
+                <input type="radio" id="val19" name="ques3" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val20">5</label>
+                <input type="radio" id="val20" name="ques3" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">4. Ощущение сильного расстройства после того, как что-то напомнило вам о травматическом событии из прошлого.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val21">1</label>
+                <input type="radio" id="val21" name="ques4" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val22">2</label>
+                <input type="radio" id="val22" name="ques4" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val23">3</label>
+                <input type="radio" id="val23" name="ques4" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val24">4</label>
+                <input type="radio" id="val24" name="ques4" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val25">5</label>
+                <input type="radio" id="val25" name="ques4" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">5. Физические реакции (сильное сердцебиение, затрудненное
+            дыхание, повышенное потоотделение) на что-то, что напомнило
+            вам о травматическом событии из прошлого.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val26">1</label>
+                <input type="radio" id="val26" name="ques5" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val27">2</label>
+                <input type="radio" id="val27" name="ques5" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val28">3</label>
+                <input type="radio" id="val28" name="ques5" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val29">4</label>
+                <input type="radio" id="val29" name="ques5" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val30">5</label>
+                <input type="radio" id="val30" name="ques5" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">6. Избегание мыслей или разговоров о травматическом событии
+            из прошлого, попытки ничего в его отношении не чувствовать.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val31">1</label>
+                <input type="radio" id="val31" name="ques6" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val32">2</label>
+                <input type="radio" id="val32" name="ques6" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val33">3</label>
+                <input type="radio" id="val33" name="ques6" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val34">4</label>
+                <input type="radio" id="val34" name="ques6" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val35">5</label>
+                <input type="radio" id="val35" name="ques6" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">7. Избегание действий и ситуаций, напоминающих о травматическом
+            событии из прошлого.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val36">1</label>
+                <input type="radio" id="val36" name="ques7" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val37">2</label>
+                <input type="radio" id="val37" name="ques7" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val38">3</label>
+                <input type="radio" id="val38" name="ques7" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val39">4</label>
+                <input type="radio" id="val39" name="ques7" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val40">5</label>
+                <input type="radio" id="val40" name="ques7" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">8. Неспособность вспомнить важные детали травматического события из прошлого.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val41">1</label>
+                <input type="radio" id="val41" name="ques8" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val42">2</label>
+                <input type="radio" id="val42" name="ques8" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val43">3</label>
+                <input type="radio" id="val43" name="ques8" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val44">4</label>
+                <input type="radio" id="val44" name="ques8" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val45">5</label>
+                <input type="radio" id="val45" name="ques8" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">9. Потеря интереса к тому, что раньше радовало.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val46">1</label>
+                <input type="radio" id="val46" name="ques9" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val47">2</label>
+                <input type="radio" id="val47" name="ques9" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val48">3</label>
+                <input type="radio" id="val48" name="ques9" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val49">4</label>
+                <input type="radio" id="val49" name="ques9" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val50">5</label>
+                <input type="radio" id="val50" name="ques9" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">10. Ощущение отдаления, разъединения с другими людьми.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val51">1</label>
+                <input type="radio" id="val51" name="ques10" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val52">2</label>
+                <input type="radio" id="val52" name="ques10" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val53">3</label>
+                <input type="radio" id="val53" name="ques10" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val54">4</label>
+                <input type="radio" id="val54" name="ques10" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val55">5</label>
+                <input type="radio" id="val55" name="ques10" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">11. Ощущение эмоционального онемения, неспособность любить
+            близких.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val56">1</label>
+                <input type="radio" id="val56" name="ques11" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val57">2</label>
+                <input type="radio" id="val57" name="ques11" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val58">3</label>
+                <input type="radio" id="val58" name="ques11" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val59">4</label>
+                <input type="radio" id="val59" name="ques11" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val60">5</label>
+                <input type="radio" id="val60" name="ques11" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">12. Ощущение, что будущее будто бы укоротилось.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val61">1</label>
+                <input type="radio" id="val61" name="ques12" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val62">2</label>
+                <input type="radio" id="val62" name="ques12" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val63">3</label>
+                <input type="radio" id="val63" name="ques12" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val64">4</label>
+                <input type="radio" id="val64" name="ques12" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val65">5</label>
+                <input type="radio" id="val65" name="ques12" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">13. Трудности с засыпанием, некрепкий сон.
+        </td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val66">1</label>
+                <input type="radio" id="val66" name="ques13" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val67">2</label>
+                <input type="radio" id="val67" name="ques13" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val68">3</label>
+                <input type="radio" id="val68" name="ques13" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val69">4</label>
+                <input type="radio" id="val69" name="ques13" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val70">5</label>
+                <input type="radio" id="val70" name="ques13" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">14. Раздражительность и вспышки гнева.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val71">1</label>
+                <input type="radio" id="val71" name="ques14" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val72">2</label>
+                <input type="radio" id="val72" name="ques14" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val73">3</label>
+                <input type="radio" id="val73" name="ques14" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val74">4</label>
+                <input type="radio" id="val74" name="ques14" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val75">5</label>
+                <input type="radio" id="val75" name="ques14" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">15. Трудности с концентрацией.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val76">1</label>
+                <input type="radio" id="val76" name="ques15" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val77">2</label>
+                <input type="radio" id="val77" name="ques15" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val78">3</label>
+                <input type="radio" id="val78" name="ques15" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val79">4</label>
+                <input type="radio" id="val79" name="ques15" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val80">5</label>
+                <input type="radio" id="val80" name="ques15" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">16. Сверхбдительность, постоянное состояние начеку.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val81">1</label>
+                <input type="radio" id="val81" name="ques16" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val82">2</label>
+                <input type="radio" id="val82" name="ques16" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val83">3</label>
+                <input type="radio" id="val83" name="ques16" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val84">4</label>
+                <input type="radio" id="val84" name="ques16" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val85">5</label>
+                <input type="radio" id="val85" name="ques16" value="5">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="how_strong2" colspan="3">17. Ощущение нервозности, пугливость.</td>
+        <td class="how_strong2" colspan="2">
+            <div class="radio_input">
+                <label for="val86">1</label>
+                <input type="radio" id="val86" name="ques17" value="1">
+            </div>
+            <div class="radio_input">
+                <label for="val87">2</label>
+                <input type="radio" id="val87" name="ques17" value="2">
+            </div>
+            <div class="radio_input">
+                <label for="val88">3</label>
+                <input type="radio" id="val88" name="ques17" value="3">
+            </div>
+            <div class="radio_input">
+                <label for="val89">4</label>
+                <input type="radio" id="val89" name="ques17" value="4">
+            </div>
+            <div class="radio_input">
+                <label for="val90">5</label>
+                <input type="radio" id="val90" name="ques17" value="5">
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="how_strong2" colspan="5">
+            <div>
+                <button>Посчитать?</button>
+                <h2 class="result">Результат: <span></span></h2>
+                <h2 class="result2"></h2>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="5" class="footer">
+            Weathers, Litz, Huska, & Keane; National Center for PTSD—Behavioral Science Division
+            This is a government document in the public domain.
+
+        </td>
+    </tr>
+
+</table>
+
+
+<p>made by <b>@karpendiaZz</b> (telegram)</p>
+<script>
+
+    let button = document.querySelector("button");
+    let res = document.querySelector(".result2");
+    button.addEventListener('click', function () {
+        let count = 0;
+        let elements = document.querySelectorAll("input");
+        for(let element of elements){
+            if(element.checked) {
+                count += Number(element.value);
+            }
+        }
+
+        let result = document.querySelector('.result span');
+        result.innerHTML = String(count);
+        let res_st = document.querySelector('.result2');
+        if(count >= 44){
+            res.classList.remove('green_res');
+            res.classList.add('red_res');
+            res_st.innerHTML = 'Имеется ПТСР'
+        }else if(count < 44 && count >= 30){
+            res.classList.remove('green_res');
+            res.classList.add('red_res');
+            res_st.innerHTML = 'Наблюдаются выраженные черты ПТСР'
+        }
+        else if(count < 30){
+            res.classList.remove('red_res');
+            res.classList.add('green_res');
+            res_st.innerHTML = 'ПТСР - не наблюдается'
+        }
+
+    })
+</script>
+</body>
+</html>

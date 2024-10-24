@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Опросник тревоги Лихи</title>
+  <style>
+    body{
+      font-family: "Arial",serif;
+      max-width: 1024px;
+      margin: 0 auto;
+      color: #424242;
+
+    }
+    table{
+      border: 1px solid black;
+      width: 100%;
+
+    }
+
+    caption{
+      padding: 10px;
+      font-weight: 600;
+    }
+
+    .first_header{
+      background-color: bisque;
+      border: 1px solid darkgoldenrod;
+      font-size: 20px;
+    }
+
+    .sec_header{
+      background-color: rgba(151,217,60,0.1);
+      border: 1px solid darkgoldenrod;
+    }
+
+    .when{
+      text-align: left;
+      display: block;
+      margin-top: 10px;
+    }
+
+    .how_strong{
+      border: 1px solid rgba(151,217,60,0.7);
+    }
+
+    .how_strong2{
+      border: 1px solid gray;
+    }
+
+    td{
+      padding: 10px;
+    }
+
+    .footer{
+      padding: 10px;
+    }
+    label{
+      color: brown;
+      font-weight: bold;
+    }
+    .radio_input{
+      display: inline-block;
+      border: 2px solid darkolivegreen;
+      padding: 3px;
+      border-radius: 8px;
+    }
+    button{
+      height: 40px;
+      width: 150px;
+      font-weight: bold;
+      font-size: 16px;
+      margin-top: 20px;
+      border-radius: 8px;
+      border: 2px solid darkolivegreen;
+
+    }
+    button:hover{
+      background-color: white;
+    }
+    button:active{
+      background-color: bisque;
+    }
+    .red_res{
+      color: brown;
+    }
+    .green_res{
+      color: darkgreen;
+    }
+    p{
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+<table>
+  <caption class="first_header">Опросник тревоги Лихи</caption>
+  <caption class="sec_header">Оцените чувства, перечисленные в левой колонке. Выберите оценку, которая
+    наиболее точно описывает, как вы в целом чувствовали себя на протяжении
+    прошлой недели. Используйте приведенную ниже шкалу. Закончив тест, сложите
+    полученные баллы в колонке справа, чтобы получить показатели вашей общей
+    тревожности.
+
+
+  </caption>
+  <tr>
+    <th class="how_strong" colspan="1">0 — вовсе нет</th>
+    <th class="how_strong" colspan="1">1 — немного</th>
+    <th class="how_strong" colspan="1">2 — иногда</th>
+    <th class="how_strong" colspan="1">3 — да</th>
+  </tr>
+  <tr>
+    <th class="how_strong" colspan="2">Ощущения</th>
+    <th class="how_strong" colspan="2">Баллы</th>
+  </tr>
+
+  <tr>
+    <td class="how_strong2" colspan="2">Дрожал</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val0">0</label>
+        <input type="radio" id="val0" name="ques1" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val1">1</label>
+        <input type="radio" id="val1" name="ques1" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val2">2</label>
+        <input type="radio" id="val2" name="ques1" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val3">3</label>
+        <input type="radio" id="val3" name="ques1" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Не мог расслабиться</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val4">0</label>
+        <input type="radio" id="val4" name="ques2" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val5">1</label>
+        <input type="radio" id="val5" name="ques2" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val6">2</label>
+        <input type="radio" id="val6" name="ques2" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val7">3</label>
+        <input type="radio" id="val7" name="ques2" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Беспокоился</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val12">0</label>
+        <input type="radio" id="val12" name="ques3" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val13">1</label>
+        <input type="radio" id="val13" name="ques3" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val14">2</label>
+        <input type="radio" id="val14" name="ques3" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val15">3</label>
+        <input type="radio" id="val15" name="ques3" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Быстро уставал</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val16">0</label>
+        <input type="radio" id="val16" name="ques4" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val17">1</label>
+        <input type="radio" id="val17" name="ques4" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val18">2</label>
+        <input type="radio" id="val18" name="ques4" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val19">3</label>
+        <input type="radio" id="val19" name="ques4" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Головная боль</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val20">0</label>
+        <input type="radio" id="val20" name="ques5" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val21">1</label>
+        <input type="radio" id="val21" name="ques5" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val22">2</label>
+        <input type="radio" id="val22" name="ques5" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val23">3</label>
+        <input type="radio" id="val23" name="ques5" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Не хватало воздуха</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val24">0</label>
+        <input type="radio" id="val24" name="ques6" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val25">1</label>
+        <input type="radio" id="val25" name="ques6" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val26">2</label>
+        <input type="radio" id="val26" name="ques6" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val27">3</label>
+        <input type="radio" id="val27" name="ques6" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Кружилась голова</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val28">0</label>
+        <input type="radio" id="val28" name="ques7" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val29">1</label>
+        <input type="radio" id="val29" name="ques7" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val30">2</label>
+        <input type="radio" id="val30" name="ques7" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val31">3</label>
+        <input type="radio" id="val31" name="ques7" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Частое мочеиспускание</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val32">0</label>
+        <input type="radio" id="val32" name="ques8" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val33">1</label>
+        <input type="radio" id="val33" name="ques8" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val34">2</label>
+        <input type="radio" id="val34" name="ques8" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val35">3</label>
+        <input type="radio" id="val35" name="ques8" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Потливость (вне зависимости о жары)</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val36">0</label>
+        <input type="radio" id="val36" name="ques9" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val37">1</label>
+        <input type="radio" id="val37" name="ques9" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val38">2</label>
+        <input type="radio" id="val38" name="ques9" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val39">3</label>
+        <input type="radio" id="val39" name="ques9" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Сильно стучало сердце</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val40">0</label>
+        <input type="radio" id="val40" name="ques10" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val41">1</label>
+        <input type="radio" id="val41" name="ques10" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val42">2</label>
+        <input type="radio" id="val42" name="ques10" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val43">3</label>
+        <input type="radio" id="val43" name="ques10" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Изжога, расстройство желудка</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val44">0</label>
+        <input type="radio" id="val44" name="ques11" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val45">1</label>
+        <input type="radio" id="val45" name="ques11" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val46">2</label>
+        <input type="radio" id="val46" name="ques11" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val47">3</label>
+        <input type="radio" id="val47" name="ques11" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Легко раздражался</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val48">0</label>
+        <input type="radio" id="val48" name="ques12" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val49">1</label>
+        <input type="radio" id="val49" name="ques12" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val50">2</label>
+        <input type="radio" id="val50" name="ques12" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val51">3</label>
+        <input type="radio" id="val51" name="ques12" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Легко пугался</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val52">0</label>
+        <input type="radio" id="val52" name="ques13" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val53">1</label>
+        <input type="radio" id="val53" name="ques13" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val54">2</label>
+        <input type="radio" id="val54" name="ques13" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val55">3</label>
+        <input type="radio" id="val55" name="ques13" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Плохо спал</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val56">0</label>
+        <input type="radio" id="val56" name="ques14" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val57">1</label>
+        <input type="radio" id="val57" name="ques14" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val58">2</label>
+        <input type="radio" id="val58" name="ques14" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val59">3</label>
+        <input type="radio" id="val59" name="ques14" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Много волновался</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val60">0</label>
+        <input type="radio" id="val60" name="ques15" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val61">1</label>
+        <input type="radio" id="val61" name="ques15" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val62">2</label>
+        <input type="radio" id="val62" name="ques15" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val63">3</label>
+        <input type="radio" id="val63" name="ques15" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Не мог контролировать волнение</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val64">0</label>
+        <input type="radio" id="val64" name="ques16" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val65">1</label>
+        <input type="radio" id="val65" name="ques16" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val66">2</label>
+        <input type="radio" id="val66" name="ques16" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val67">3</label>
+        <input type="radio" id="val67" name="ques16" value="3">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="how_strong2" colspan="2">Не мог сконцентрироваться</td>
+    <td class="how_strong2" colspan="2">
+      <div class="radio_input">
+        <label for="val68">0</label>
+        <input type="radio" id="val68" name="ques17" value="0">
+      </div>
+      <div class="radio_input">
+        <label for="val69">1</label>
+        <input type="radio" id="val69" name="ques17" value="1">
+      </div>
+      <div class="radio_input">
+        <label for="val70">2</label>
+        <input type="radio" id="val70" name="ques17" value="2">
+      </div>
+      <div class="radio_input">
+        <label for="val71">3</label>
+        <input type="radio" id="val71" name="ques17" value="3">
+      </div>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td class="how_strong2" colspan="5">
+      <div>
+        <button>Посчитать?</button>
+        <h2 class="result">Результат: <span></span></h2>
+        <h2 class="result2"></h2>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="5" class="footer">
+      (С) 1999 Роберт Л. Лихи
+
+    </td>
+  </tr>
+
+</table>
+
+
+<p>made by <b>@karpendiaZz</b> (telegram)</p>
+<script>
+
+  let button = document.querySelector("button");
+  let res = document.querySelector(".result2");
+  button.addEventListener('click', function () {
+    let count = 0;
+    let elements = document.querySelectorAll("input");
+    for(let element of elements){
+      if(element.checked) {
+        count += Number(element.value);
+      }
+    }
+    let result = document.querySelector('.result span');
+    result.innerHTML = String(count);
+    let res_st = document.querySelector('.result2');
+    if(count >= 16){
+      res.classList.remove('green_res');
+      res.classList.add('red_res');
+      res_st.innerHTML = 'Сильная тревога ';
+    }
+    else if(count < 5){
+      res.classList.remove('red_res');
+      res.classList.add('green_res');
+      res_st.innerHTML = 'Тревога слабовыраженная или ненаблюдается';
+    }
+    else if(count >= 5 && count <= 10){
+      res.classList.remove('red_res');
+      res.classList.add('green_res');
+      res_st.innerHTML = 'Легкая общая тревога';
+    }
+    else if(count >= 11 && count <= 15){
+      res.classList.remove('green_res');
+      res.classList.add('red_res');
+      res_st.innerHTML = 'Cредняя общая тревога';
+    }
+
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+[2024-06-11 18:36:27] Text error: Undefined offset: 1 | File: D:\temp_web\osp\home\diary\app\App.php | String: 14
+================
+[2024-06-12 11:51:36] Text error: Undefined offset: 1 | File: D:\temp_web\osp\home\diary\app\App.php | String: 14
+================
+[2024-06-12 11:58:27] Text error: Undefined offset: 1 | File: D:\temp_web\osp\home\diary\app\App.php | String: 14
+================
+[2024-06-12 12:02:06] Text error: Undefined offset: 1 | File: D:\temp_web\osp\home\diary\app\App.php | String: 14
+================
+[2024-06-12 12:02:11] Text error: Undefined offset: 1 | File: D:\temp_web\osp\home\diary\app\App.php | String: 14
+================
+[2024-06-12 12:02:37] Text error: Undefined variable: act | File: D:\temp_web\osp\home\diary\app\App.php | String: 31
+================
+[2024-06-12 12:03:08] Text error: Undefined offset: 1 | File: D:\temp_web\osp\home\diary\app\App.php | String: 14
+================
+[2024-06-12 12:04:26] Text error: Undefined offset: 1 | File: D:\temp_web\osp\home\diary\app\App.php | String: 14
+================
+[2024-06-12 12:06:40] Text error: Undefined offset: 1 | File: D:\temp_web\osp\home\diary\app\App.php | String: 14
+================
+[2024-06-12 12:07:03] Text error: Undefined offset: 1 | File: D:\temp_web\osp\home\diary\app\App.php | String: 15
+================
+[2024-06-12 12:07:13] Text error: Undefined offset: 1 | File: D:\temp_web\osp\home\diary\app\App.php | String: 15
+================
+[2024-06-12 12:07:52] Text error: Array to string conversion | File: D:\temp_web\osp\home\diary\app\App.php | String: 14
+================
+[2024-06-12 12:07:57] Text error: Array to string conversion | File: D:\temp_web\osp\home\diary\app\App.php | String: 14
+================
+[2024-06-12 12:10:45] Text error: Array to string conversion | File: D:\temp_web\osp\home\diary\app\App.php | String: 14
+================
+[2024-06-12 17:45:30] Text error: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ | File: D:\temp_web\osp\home\diary\app\Db.php | String: 14
+================
+[2024-06-12 17:46:05] Text error: Undefined index: startFrom | File: D:\temp_web\osp\home\diary\app\controllers\Archive.php | String: 15
+================
+[2024-06-12 17:46:19] Text error: Undefined index: startFrom | File: D:\temp_web\osp\home\diary\app\controllers\Archive.php | String: 15
+================
+[2024-06-12 17:47:05] Text error: Undefined index: startFrom | File: D:\temp_web\osp\home\diary\app\controllers\Archive.php | String: 15
+================
+[2024-06-12 17:47:52] Text error: Undefined index: startFromDL | File: D:\temp_web\osp\home\diary\app\controllers\Archive.php | String: 22
+================
+[2024-06-12 18:01:37] Text error: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ | File: D:\temp_web\osp\home\diary\app\Db.php | String: 14
+================
+[2024-06-12 18:02:01] Text error: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) | File: D:\temp_web\osp\home\diary\app\Db.php | String: 14
+================
+[2024-06-12 18:02:28] Text error: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Этот хост неизвестен.  | File: D:\temp_web\osp\home\diary\app\Db.php | String: 14
+================
+[2024-06-12 18:03:29] Text error: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) | File: D:\temp_web\osp\home\diary\app\Db.php | String: 14
+================
+[2024-06-12 18:08:17] Text error: Call to undefined function app\els() | File: D:\temp_web\osp\home\diary\app\App.php | String: 35
+================
+[2024-06-12 18:08:32] Text error: Undefined variable: ac | File: D:\temp_web\osp\home\diary\app\App.php | String: 34
+================
+[2024-06-12 18:08:44] Text error: Call to undefined function app\index() | File: D:\temp_web\osp\home\diary\app\App.php | String: 35
+================
+[2024-06-12 18:13:48] Text error: PDOStatement::execute() expects parameter 1 to be array, integer given | File: D:\temp_web\osp\home\diary\app\Db.php | String: 19
+================
+[2024-06-19 11:37:04] Text error: require_once(D:\temp_web\osp\home\diary\templates\diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:37:38] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:38:54] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:39:03] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:39:21] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:39:30] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:39:59] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:40:19] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:40:53] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:42:10] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:42:12] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:42:18] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:42:21] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:42:43] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:43:00] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:43:04] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:43:22] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:43:28] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:45:24] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:46:53] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:47:08] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:47:22] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:48:01] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:48:54] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:49:27] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:50:15] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:50:22] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:51:03] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:51:40] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:52:17] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:52:50] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:52:53] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:53:22] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 11:53:32] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 12:13:41] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 12:14:05] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 12:14:46] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 12:15:56] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 12:16:24] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 12:23:05] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 12:23:21] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:51:12] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:51:42] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:52:02] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:52:16] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:52:26] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:52:39] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:53:04] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:53:23] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:53:30] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:54:29] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:55:01] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:55:13] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:55:36] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:55:44] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 22:56:48] Text error: require_once(D:\temp_web\osp\home\diary\app\controllers/../../templates/diary.php): failed to open stream: No such file or directory | File: D:\temp_web\osp\home\diary\app\View.php | String: 11
+================
+[2024-06-19 23:11:03] Text error: syntax error, unexpected 'echo' (T_ECHO) | File: D:\temp_web\osp\home\diary\app\controllers\Ptsr.php | String: 16
+================
+[2024-06-19 23:11:32] Text error: syntax error, unexpected ')', expecting ']' | File: D:\temp_web\osp\home\diary\app\controllers\Ptsr.php | String: 15
+================
+[2024-06-19 23:16:31] Text error: Cannot use object of type app\models\Ptsr as array | File: D:\temp_web\osp\home\diary\app\controllers\Ptsr.php | String: 15
+================
+[2024-06-19 23:16:58] Text error: Cannot use object of type app\models\Ptsr as array | File: D:\temp_web\osp\home\diary\app\controllers\Ptsr.php | String: 15
+================
+[2024-06-19 23:20:55] Text error: Undefined variable: motivation | File: D:\temp_web\osp\home\diary\templates\ptsr.php | String: 180
+================
+[2024-06-20 11:00:28] Text error: Too few arguments to function app\View::render(), 1 passed in D:\temp_web\osp\home\diary\app\controllers\Authorization.php on line 11 and exactly 2 expected | File: D:\temp_web\osp\home\diary\app\View.php | String: 9
+================
+[2024-06-20 11:02:56] Text error: compact() expects at least 1 parameter, 0 given | File: D:\temp_web\osp\home\diary\app\controllers\Authorization.php | String: 11
+================
+[2024-06-20 11:04:06] Text error: Undefined variable: title | File: D:\temp_web\osp\home\diary\templates\blocks\header.php | String: 8
+================
+[2024-06-29 12:16:56] Text error: PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined | File: D:\temp_web\osp\home\diary\app\Db.php | String: 26
+================
+[2024-06-29 12:17:14] Text error: PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined | File: D:\temp_web\osp\home\diary\app\Db.php | String: 26
+================
+[2024-06-29 12:18:37] Text error: PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined | File: D:\temp_web\osp\home\diary\app\Db.php | String: 26
+================
+[2024-06-29 12:18:49] Text error: PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined | File: D:\temp_web\osp\home\diary\app\Db.php | String: 26
+================
+[2024-06-29 12:19:22] Text error: PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined | File: D:\temp_web\osp\home\diary\app\Db.php | String: 26
+================
+[2024-06-29 12:19:59] Text error: PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined | File: D:\temp_web\osp\home\diary\app\Db.php | String: 26
+================
+[2024-07-02 12:57:12] Text error: Too few arguments to function app\Model::findById(), 1 passed in D:\temp_web\osp\home\diary\app\controllers\Archive.php on line 48 and exactly 2 expected | File: D:\temp_web\osp\home\diary\app\Model.php | String: 11
+================
+[2024-07-02 12:57:37] Text error: Too few arguments to function app\Model::findById(), 1 passed in D:\temp_web\osp\home\diary\app\controllers\Archive.php on line 48 and exactly 2 expected | File: D:\temp_web\osp\home\diary\app\Model.php | String: 11
+================
+[2024-07-02 12:59:15] Text error: Too few arguments to function app\Model::findById(), 1 passed in D:\temp_web\osp\home\diary\app\controllers\Archive.php on line 54 and exactly 2 expected | File: D:\temp_web\osp\home\diary\app\Model.php | String: 11
+================
+[2024-07-02 12:59:20] Text error: Too few arguments to function app\Model::findById(), 1 passed in D:\temp_web\osp\home\diary\app\controllers\Archive.php on line 54 and exactly 2 expected | File: D:\temp_web\osp\home\diary\app\Model.php | String: 11
+================
+[2024-07-02 13:00:04] Text error: Too few arguments to function app\Model::findById(), 1 passed in D:\temp_web\osp\home\diary\app\controllers\Archive.php on line 54 and exactly 2 expected | File: D:\temp_web\osp\home\diary\app\Model.php | String: 11
+================
+[2024-07-02 23:27:08] Text error: Too few arguments to function app\Model::findById(), 1 passed in D:\temp_web\osp\home\diary\app\controllers\Archive.php on line 42 and exactly 2 expected | File: D:\temp_web\osp\home\diary\app\Model.php | String: 11
+================
+[2024-07-17 11:53:13] Text error: Undefined property: app\View::$records_dl | File: D:\temp_web\osp\home\diary\templates\ptsr.php | String: 411
+================
+[2024-07-17 11:54:12] Text error: Undefined variable: record | File: D:\temp_web\osp\home\diary\templates\ptsr.php | String: 412
+================
+[2024-07-17 11:56:07] Text error: Trying to get property 'id' of non-object | File: D:\temp_web\osp\home\diary\templates\ptsr.php | String: 412
+================
+[2024-07-17 11:56:51] Text error: Undefined variable: record | File: D:\temp_web\osp\home\diary\templates\ptsr.php | String: 412
+================
+[2024-07-17 11:58:03] Text error: Undefined variable: record | File: D:\temp_web\osp\home\diary\templates\ptsr.php | String: 416
+================
+[2024-07-30 12:54:57] Text error: Undefined property: app\models\Myfeelandimage::$daterec | File: D:\temp_web\osp\home\diary\templates\ptsr.php | String: 407
+================
+[2024-07-30 12:59:35] Text error: Undefined property: app\models\Myfeelandimage::$daterec | File: D:\temp_web\osp\home\diary\templates\ptsr.php | String: 407
+================
+[2024-07-30 15:10:43] Text error: Undefined variable: record | File: D:\temp_web\osp\home\diary\templates\ptsr.php | String: 400
+================
+[2024-07-31 23:06:00] Text error: Undefined variable: record | File: D:\temp_web\osp\home\diary\templates\ptsr.php | String: 400
+================
+[2024-08-10 10:11:30] Text error: Undefined offset: 0 | File: D:\temp_web\osp\home\diary\app\controllers\Checklink.php | String: 14
+================
+[2024-09-12 19:38:25] Text error: Undefined offset: 0 | File: D:\temp_web\osp\home\diary\app\controllers\Checklink.php | String: 14
+================
+[2024-10-03 22:46:05] Text error: Undefined offset: 0 | File: D:\temp_web\osp\home\diary\app\controllers\Checklink.php | String: 14
+================
+[2024-10-15 13:24:55] Text error: Undefined offset: 0 | File: D:\temp_web\osp\home\diary\app\controllers\Checklink.php | String: 14
+================
